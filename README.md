@@ -77,6 +77,12 @@ End-to-end scripts are in [`scripts/ml/`](./scripts/ml):
 - `merge_and_export_onnx.py`: merge LoRA + export ONNX `text-generation-with-past`
 - `README.md`: Colab runtime instructions
 
+For instant Colab execution, use the ready notebook:
+
+- [`scripts/ml/free_cursor_train_qlora_colab.ipynb`](./scripts/ml/free_cursor_train_qlora_colab.ipynb)
+- Direct Colab link:
+  - `https://colab.research.google.com/github/dewd5252/free-cursor-mvp/blob/main/scripts/ml/free_cursor_train_qlora_colab.ipynb`
+
 ## MethodChannel API
 
 Implemented methods:

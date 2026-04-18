@@ -7,6 +7,12 @@ This folder contains executable scripts for the full training/export path:
 3. Evaluate key JSON/action metrics
 4. Merge LoRA and export ONNX (`text-generation-with-past`)
 
+## Open Directly In Colab
+
+- Notebook file: `scripts/ml/free_cursor_train_qlora_colab.ipynb`
+- Direct link:
+  - `https://colab.research.google.com/github/dewd5252/free-cursor-mvp/blob/main/scripts/ml/free_cursor_train_qlora_colab.ipynb`
+
 ## 1) Package dataset locally
 
 ```bash
@@ -17,6 +23,11 @@ Upload both files to Google Drive:
 
 - `free_cursor_dataset.tar.gz`
 - `free_cursor_dataset.tar.gz.sha256`
+
+Fallback supported by notebook:
+
+- `/content/drive/MyDrive/free_cursor_dataset.tar.gz`
+- `/content/drive/MyDrive/dataset.tar.gz`
 
 ## 2) Colab setup
 
